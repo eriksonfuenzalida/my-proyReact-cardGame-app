@@ -1,0 +1,41 @@
+.cardSet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(34, 32, 32, 0.4);
+  margin: 15px;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+}
+
+.cardName {
+  background: rgba(34, 32, 32, 0.8);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardTitle {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1024px) {
+  .cardInfo {
+    flex-direction: row;
+  }
+}

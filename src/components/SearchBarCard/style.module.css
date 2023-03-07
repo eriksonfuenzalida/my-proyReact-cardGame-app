@@ -1,0 +1,48 @@
+.boxSearch {
+  margin-top: 7.5px;
+}
+
+.icon {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 7px;
+}
+
+.input {
+  border-radius: 30px;
+  background-color: #1133176e;
+  height: 30px;
+  color: white;
+  font-size: 11px;
+  width: 100%;
+  border-color: transparent;
+  padding: 18px 18px 18px 50px;
+  border: solid 1px white;
+}
+
+input::placeholder {
+  /* color: rgb(80, 78, 78); */
+  color: white;
+}
+
+input:focus {
+  outline-width: 0;
+  border: solid 1px black;
+}
+
+@media only screen and (min-width: 375px) {
+  .input {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .input {
+    width: 420px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .input {
+    font-size: 17px;
+  }
+}

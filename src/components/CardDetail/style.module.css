@@ -1,0 +1,53 @@
+.cardTextSet {
+  padding: 35px 10px 0 10px;
+  flex: 2;
+}
+.cardText {
+  border: 1px solid #000;
+  border-right: none;
+  border-top: none;
+  margin-bottom: 10px;
+}
+.frameItem {
+  display: flex;
+}
+.itemBox {
+  border: 1px solid #000;
+  border-left: none;
+  border-bottom: none;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  flex: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+.boxTitle {
+  white-space: nowrap;
+  display: flex;
+  text-align: center;
+  background-color: rgba(34, 32, 32, 0.8);
+  justify-content: center;
+  color: #ffffff;
+  flex: 1;
+}
+.boxValue {
+  flex: 3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconBox {
+  width: 25px;
+  width: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.boxDescription {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
